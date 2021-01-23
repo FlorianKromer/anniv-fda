@@ -22,6 +22,11 @@ html {
     height: 100%;
 }
 
+.bgimg-2 {
+    background-image: url("img/bg2.jpg");
+    height: 100%;
+}
+
 .caption {
     position: absolute;
     left: 0;
@@ -31,7 +36,7 @@ html {
     color: #000;
 }
 
-.caption span.border {
+.caption .border {
     background-color: #111;
     color: #fff;
     padding: 18px;
@@ -39,9 +44,35 @@ html {
     letter-spacing: 10px;
 }
 
+.caption-bg {
+    display: inline-block;
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+}
+
 h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
-    color: #111;
+    color: #fff;
+}
+
+.alert {
+    width: 50%;
+    margin: 20px auto;
+    padding: 2em;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px #ccc;
+}
+
+.success-alert {
+    background-color: #a8f0c6;
+    border-left: 5px solid #178344;
+}
+
+.danger-alert {
+    background-color: #f7a7a3;
+    border-left: 5px solid #8f130c;
 }
