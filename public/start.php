@@ -1,14 +1,8 @@
-<?php
-include "header.php";
-?>
+<?php include "header.php"; ?>
 <div class="bgimg-2">
-    <?php
-    include "message.php";
-
-    ?>
+    <?php include "message.php"; ?>
     <div class="caption ">
         <div class="caption-bg">
-
             <h3>Etape 1</h3><br />
             <h4>Jeu de dame en chine</h4>
             <form action="/etape.php" method="post">

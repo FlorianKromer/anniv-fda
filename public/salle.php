@@ -1,11 +1,6 @@
-<?php
-include "header.php";
-?>
+<?php include "header.php"; ?>
 <div class="bgimg-2">
-    <?php
-    include "message.php";
-
-    ?>
+    <?php include "message.php";  ?>
     <div class="caption ">
         <div class="caption-bg">
             <h3>Etape 2</h3><br />
