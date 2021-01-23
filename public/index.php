@@ -1,5 +1,8 @@
 <?php
 include "header.php";
+
+$_SESSION['success_message'] = null;
+$_SESSION['danger_message'] = null;
 ?>
 
 <body>
